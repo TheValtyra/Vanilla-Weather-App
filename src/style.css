@@ -1,7 +1,18 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
   border: 1px solid rgb(150, 82, 238);
   border-radius: 10px;
+}
+
+h1 {
+  color: rgb(6, 59, 41);
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28.8px;
 }
