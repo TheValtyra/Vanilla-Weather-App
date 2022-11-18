@@ -34,7 +34,7 @@ function displayTemperature(response) {
   descriptionElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
-  dateElement.innerHTML = formateDate(response.date.dt * 1000);
+  dateElement.innerHTML = formateDate(response.dt * 1000);
 }
 
 let apiKey = "13cd370ea29aa99f56340dbf634b07d5";
