@@ -1,5 +1,6 @@
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -39,8 +40,8 @@ li {
 
 .weather-temperature img {
   margin-right: 15px;
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
 }
 
 .weather-temperature strong {
@@ -72,13 +73,25 @@ li {
 
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
+  color: rgb(100, 108, 196);
 }
 
 .weather-forecast-temperatures-min {
+  color: rgb(100, 108, 196);
+
   opacity: 0.5;
 }
 
 .weather-forecast-temperatures {
+  color: rgb(100, 108, 196);
+
   font-size: 13px;
+}
+
+.windUnits {
+  text-transform: lowercase;
+}
+
+.humidityWind {
+  float: right;
 }
